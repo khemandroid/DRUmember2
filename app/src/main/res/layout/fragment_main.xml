@@ -75,10 +75,12 @@
 
         <!--new register-->
         <TextView
+            android:clickable="true"
+            android:id="@+id/txtNewRegister"
             android:textColor="@color/colorAccent"
             android:textStyle="italic"
             android:layout_gravity="center_horizontal"
-            android:textSize="@dimen/h1"
+            android:textSize="18sp"
             android:text="New Register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
