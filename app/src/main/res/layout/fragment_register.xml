@@ -13,6 +13,7 @@
 
     <!--Avata Image-->
     <ImageView
+        android:id="@+id/imvAvata"
         android:layout_margin="15dp"
         android:src="@drawable/avata"
         android:layout_gravity="center_horizontal"
@@ -29,15 +30,15 @@
 
         <!--Icon-->
         <ImageView
-            android:layout_gravity="center"
-            android:src="@drawable/ic_action_user"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_action_name" />
 
         <!--Text Field-->
         <EditText
             android:inputType="text"
-            android:hint="@string/user"
+            android:hint="nickname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
